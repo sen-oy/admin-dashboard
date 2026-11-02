@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
       rel="stylesheet">
 </head>
 <body>
@@ -32,8 +32,10 @@
     </div>
 
     <div id="sidebar">
-        <span class="material-symbols-outlined">apps</span>
-        <div id="dashboard-title"></div>
+        <div id="dashboard-title">
+            <span class="material-symbols-outlined">apps</span>
+            <p>Dashboard</p>
+        </div>
         <div id="dashboard-items">
             <div id="dashboard-menu">
                 <div class="dashboard-menu-item">
@@ -138,21 +140,48 @@
                 </article>
             </div>
         </div>
-        <div id="announcement-section">
-            <p>Announcements</p>
-            <div id="announcement-sections">
-                <section class="announcement"></section>
-                <section class="announcement"></section>
-                <section class="announcement"></section>
+        <div id="auxillary-main-content">
+            <div id="announcement-section">
+                <p>Announcements</p>
+                <div id="announcement-sections">
+                    <section class="announcement">
+                        <p class="announcement-title">Site Maintenance</p>
+                        <p class="announcement-text">Phasellus metus velit, malesuada et semper nec, lacinia eget nisl. Nullam auctor rhoncus mattis.</p>
+                    </section>
+                    <section class="announcement">
+                        <p class="announcement-title">Community Share Day</p>
+                        <p class="announcement-text">Donec tempus, nunc id rhoncus auctor, nibh lacus tristique tortor, posuere ultricies purus nisl ut urna. Morbi pharetra lorem at velit rutrum auctor.</p>
+                    </section>
+                    <section class="announcement">
+                        <p class="announcement-title">Updated Privacy Policy</p>
+                        <p class="announcement-text">Vestibulum ex felis, mollis ac volutpat ac, maximus non neque. Suspendisse auctor est ac augue lacinia lacinia eu a nunc.</p>
+                    </section>
+                </div>
             </div>
-        </div>
-        <div id="trending-section">
-            <p>Trending</p>
-            <div id="trending-sections">
-                <section class="trending-profile"></section>
-                <section class="trending-profile"></section>
-                <section class="trending-profile"></section>
-                <section class="trending-profile"></section>
+            <div id="trending-section">
+                <p>Trending</p>
+                <div id="trending-profiles">
+                    <section class="trending-profile">
+                        <img class="trending-profile-photo"/>
+                        <p class="trending-profile-handle">@tegan</p>
+                        <p class="trending-profile-description">World Peace Builder</p>
+                    </section>
+                    <section class="trending-profile">
+                        <img class="trending-profile-photo"/>
+                        <p class="trending-profile-handle">@morgan</p>
+                        <p class="trending-profile-description">Super Cool Project</p>
+                    </section>
+                    <section class="trending-profile">
+                        <img class="trending-profile-photo"/>
+                        <p class="trending-profile-handle">@kendall</p>
+                        <p class="trending-profile-description">Life Changing App</p>
+                    </section>
+                    <section class="trending-profile">
+                        <img class="trending-profile-photo"/>
+                        <p class="trending-profile-handle">@alex</p>
+                        <p class="trending-profile-description">No Traffic Maker</p>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
