@@ -3,5 +3,5 @@
 - Viewable at full screen on most desktops but not fully responsive yet.
 
 ## Credits
-- Icons - (Google Material Icons)[https://fonts.google.com/icons?safe=active]
-- Profile Avatar Pictures - (Adobe)[https://stock.adobe.com/ca/search?k=%22avatar+icon%22]
+- Icons - [Google Material Icons](https://fonts.google.com/icons?safe=active)
+- Profile Avatar Pictures - [Adobe Stock Photos](https://stock.adobe.com/ca/search?k=%22avatar+icon%22)
